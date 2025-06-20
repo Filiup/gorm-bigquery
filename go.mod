@@ -1,4 +1,4 @@
-module gorm.io/driver/bigquery
+module github.com/Filiup/gorm-bigquery
 
 go 1.20
 

@@ -2,9 +2,10 @@ package driver
 
 import (
 	"database/sql/driver"
-	"google.golang.org/api/iterator"
-	"gorm.io/driver/bigquery/adaptor"
 	"io"
+
+	"github.com/Filiup/gorm-bigquery/adaptor"
+	"google.golang.org/api/iterator"
 )
 
 type bigQueryRows struct {

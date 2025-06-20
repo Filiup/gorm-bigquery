@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 
 	"cloud.google.com/go/bigquery"
-	"gorm.io/driver/bigquery/adaptor"
+	"github.com/Filiup/gorm-bigquery/adaptor"
 )
 
 type bigQuerySchema interface {
