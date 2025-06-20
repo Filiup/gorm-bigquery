@@ -53,6 +53,7 @@ func (b bigQueryDriver) Open(uri string) (driver.Conn, error) {
 	}
 
 	client, err := bigquery.NewClient(ctx, config.projectID, opts...)
+	client.Location = config.location
 	if err != nil {
 		return nil, err
 	}
